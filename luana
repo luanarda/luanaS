@@ -6,9 +6,10 @@ print(numero)
 print(3)
 edadDeLuana= 15
 edadParaVotar= 16
-puedeVotar:
+puedeVotar = edadParaVotar<=edadDeLuana
+if puedeVotar:
  print('puede votar')
  while condicion:
- contador=contador+1
+contador=contador+1
  condicion=contador<10
  print(contador)
